@@ -1,0 +1,36 @@
+@startuml Bank Standart Containers
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(Client, "Client", "Client of Standart")
+Person(Manager, "Manager", "")
+
+System(InternetBank, "Internet Bank", "")
+
+Container_Boundary(InternetBank, "Internet Bank") {
+    Container(WebApp, "Web App", "ASP.NET, Vue", "UI for submitting a deposit request, displays a list of deposits and rates")
+    Container(DepositService, "Deposit Service", "Microservice (.NET Core)", "Business logic of opening a deposit")
+    Container(CreditService, "Credit Service", "Microservice (.NET Core)", "Business logic of taking a credit")
+
+    ContainerDb(DepositDb, "Deposit DB", "Postgres SQL", "Requests")
+    ContainerDb(CreditDb, "Credit DB", "Postgres SQL", "Requests")
+}
+
+System_Ext(SmsGateway, "SMS Gateway", "")
+System_Ext(ABS, "ABS", "")
+
+Rel(Client, WebApp, "Request")
+Rel(Manager, WebApp, "Approve/Refuse the request")
+
+Rel(WebApp, DepositService, "RESTful API")
+Rel(WebApp, CreditService, "RESTful API")
+
+Rel(DepositService, ABS, "Kafka")
+Rel(DepositService, SmsGateway, "")
+Rel(DepositService, DepositDb, "SQL")
+
+Rel(CreditService, ABS, "Kafka")
+Rel(CreditService, SmsGateway, "")
+Rel(CreditService, CreditDb, "SQL")
+
+@enduml

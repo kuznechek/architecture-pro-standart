@@ -8,17 +8,20 @@ Enterprise_Boundary(BankStandart, "Standart Bank") {
     System(Website, "Bank Standart Web site", " Web site")
     System(InternetBank, "Internet Bank Standart", "Internet Bank")
     System(ABS, "ABS", "ABS")
+    System(CallCenterSystem, "Call-Center System", "Call-Center System")
 }
 
 System_Ext(SmsGateway, "SMS Gateway", "")
 System_Ext(CallCenter, "Call-center", "")
+System_Ext(PartnerCallCenter, "Partner Call-center", "")
 System_Ext(BackOffice, "Back Office", "")
 
 Rel(Client, Website, "Request")
 Rel(Client, InternetBank, "Online-request")
 
-Rel(Website, CallCenter, "REST API")
-Rel(CallCenter, ABS, "")
+Rel(Website, CallCenterSystem, "REST API")
+Rel(CallCenterSystem, CallCenter, "")
+Rel(CallCenterSystem, PartnerCallCenter, "")
 
 Rel(InternetBank, ABS, "Kafka")
 Rel(InternetBank, SmsGateway, "SMS")

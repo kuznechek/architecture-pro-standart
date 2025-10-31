@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 YaBrowser/25.8.0.0 Safari/537.36" version="28.2.8">
+  <diagram id="D9vTfsaT675LQUdG41Sc" name="Страница — 1">
+    <mxGraphModel dx="1807" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#B6B6B6);strokeColor=light-dark(#666666,#525252);opacity=20;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="409" y="40" width="160" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#B6B6B6);strokeColor=light-dark(#666666,#525252);opacity=20;fontFamily=Courier New;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="578" y="40" width="160" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="t7-testing-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#F5F5F5,#B6B6B6);strokeColor=light-dark(#666666,#525252);opacity=20;fontFamily=Courier New;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="160" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="w1-2-header" value="Ноябрь 2025" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sys1-label" value="Интернет-банк" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sys2-label" value="Система колл-центра" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sys4-label" value="Система партнерского&#xa;колл-центра" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-integration" value="API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="419" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-1" value="Декабрь 2025" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="409" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-2" value="Январь 2026" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="578" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-8" value="Разработка нового микросервиса" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-9" value="Внедрение парсера для файлов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-10" value="Тестирвоание" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-12" value="АБС" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-13" value="Разработка новых микросервисов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-14" value="SOAP с АБС" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-15" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-16" value="Кол-центры" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-17" value="Интеграция" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-18" value="Go-Live" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="588" y="530" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-21" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="419" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-q0Gt3JD-MCyY-E-5lJ5-22" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="419" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
