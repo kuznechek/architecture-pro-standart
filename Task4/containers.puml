@@ -1,0 +1,34 @@
+@startuml Bank Standart Containers
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+
+System(CallCenterSystem, "Call-Center System", "Call-Center System")
+
+Container_Boundary(CallCenterSystem, "Call-Center System", "Call-Center System") {
+    Container(RatesSystem, "Rates Microservice System", "React.js, Java Spring Boot", "Microservice  Core")
+    Container(BankRateService, "Bank Rate Service", "Microservice (.NET Core)", "Business logic of bank rates")
+    Container(PartnerService, "Partner Service", "Microservice (.NET Core)", "Business logic of sending files to partner")
+
+    Container(Kafka, "Kafka", "Kafka", "Kafka")
+}
+
+System_Ext(Website, "Bank Standart Web site", " Web site")
+System_Ext(ABS, "ABS", "")
+System_Ext(CallCenter, "Call-center", "")
+System_Ext(PartnerCallCenter, "Partner Call-center", "")
+
+Rel(Website, RatesSystem, "REST API")
+Rel(ABS, RatesSystem, "Request")
+
+Rel(RatesSystem, BankRateService, "REST API")
+Rel(RatesSystem, PartnerService, "REST API")
+
+Rel(BankRateService, CallCenter, "")
+Rel(BankRateService, RatesSystem, "SQL")
+Rel(BankRateService, Kafka, "")
+
+Rel(PartnerService, PartnerCallCenter, "")
+Rel(PartnerService, Kafka, "")
+
+@enduml
